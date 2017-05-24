@@ -1,0 +1,50 @@
+div#right-menu-footer {
+	width: 249px;
+	height: 20px;
+	text-align: center;
+	font-size: 10pt;
+	display: block;
+	position: fixed;
+	bottom: 0;
+
+}
+
+div#right-tech-logo{
+	display: block;
+	width: 100%;
+	height: 128px;
+	text-align: center;
+
+}
+
+
+ul.right-menu-tech{
+	display: block;
+	white-space: nowrap;
+	line-height: 28px;
+	margin-top: 15px;
+}
+
+ul.right-menu-tech label{
+	display: block;
+	font-size: 13pt;
+	font-style:  italic;
+	font-weight: bold;
+	color: #E6E6E6;
+	background-color: #2E2F29;
+}
+
+ul.right-menu-tech li{
+	display: block;
+	padding-left: 10px;
+	width: 100% -10px;
+
+}
+
+ul.right-menu-tech li a{
+	text-decoration: none;
+	color: #2E2F29;
+}
+ul.right-menu-tech li a:hover{
+	color: #F3492C;
+}

@@ -1,0 +1,124 @@
+package vn.aftech.konvert;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Konvert {
+
+	private static void OutputByte(String sourceFilename, String desFileByte) throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(desFileByte));
+		String byteContent = "";
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				sourceFilename));
+		int b = -1;
+		System.out.println("Starting...");
+		while ((b = bis.read()) != -1) {
+			byteContent = byteContent + b + " ";
+			if (byteContent.length() > 100) {
+				bw.write(byteContent + "\r\n");
+				byteContent = "";
+			}
+		}
+		if (!"".equals(byteContent)) {
+			bw.write(byteContent);
+		}
+		bw.close();
+		bis.close();
+		System.out.println("Ending...");
+	}
+
+	private static void ConvertFromByte(String sourceByteFile,
+			String desFilename) throws IOException {
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream(desFilename));
+		BufferedReader br = new BufferedReader(new FileReader(sourceByteFile));
+		String content = "";
+		String[] byteContent = null;
+		int b = -1;
+		System.out.println("処理しています。。。");
+		System.out.println("フィルムを書いています。。。");
+		while ((content = br.readLine()) != null) {
+			byteContent = content.trim().split(" ");
+			for (int i = 0; i < byteContent.length; i++) {
+				b = Integer.parseInt(byteContent[i]);
+				bos.write(b);
+			}
+		}
+		br.close();
+		bos.close();
+		System.out.println("フィルムを書きました。");
+	}
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		// Create Code
+		// Konvert.OutputByte("C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp.TXT",
+		// "C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp_2.TXT");
+		// Konvert.OutputByte("F:\\SPEC_2.docx", "F:\\SPEC_2.txt");
+		// Konvert.OutputByte("F:\\SPEC_3.docx", "F:\\SPEC_3.txt");
+		// Konvert.OutputByte("F:\\SPEC_4.docx", "F:\\SPEC_4.txt");
+		// Konvert.OutputByte("F:\\SPEC_5.docx", "F:\\SPEC_5.txt");
+		// Konvert.OutputByte("F:\\SPEC_6.docx", "F:\\SPEC_6.txt");
+		// Konvert.OutputByte("F:\\SPEC_7.docx", "F:\\SPEC_7.txt");
+		// Konvert.OutputByte("F:\\SPEC_8.docx", "F:\\SPEC_8.txt");
+		// Konvert.OutputByte("F:\\SPEC_9.docx", "F:\\SPEC_9.txt");
+
+		// Konvert.OutputByte("IT専用語彙と例文の一式.7z.002", "IT専用語彙と例文の一式.7z.002.txt");
+		// Konvert.OutputByte("IT専用語彙と例文の一式.7z.003", "IT専用語彙と例文の一式.7z.003.txt");
+		// Konvert.OutputByte("IT専用語彙と例文の一式.7z.004", "IT専用語彙と例文の一式.7z.004.txt");
+		// Konvert.OutputByte("IT専用語彙と例文の一式.7z.005", "IT専用語彙と例文の一式.7z.005.txt");
+		// Konvert.OutputByte("IT専用語彙と例文の一式.7z.006", "IT専用語彙と例文の一式.7z.006.txt");
+
+		// Create File
+		Konvert.ConvertFromByte(
+				"C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp_2.TXT",
+				"C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp_3.TXT");
+		// Konvert.ConvertFromByte("IT専用語彙と例文の一式.7z.002.txt",
+		// "IT専用語彙と例文の一式.7z.002");
+		// Konvert.ConvertFromByte("IT専用語彙と例文の一式.7z.003.txt",
+		// "IT専用語彙と例文の一式.7z.003");
+		// Konvert.ConvertFromByte("IT専用語彙と例文の一式.7z.004.txt",
+		// "IT専用語彙と例文の一式.7z.004");
+		// Konvert.ConvertFromByte("IT専用語彙と例文の一式.7z.005.txt",
+		// "IT専用語彙と例文の一式.7z.005");
+		// Konvert.ConvertFromByte("IT専用語彙と例文の一式.7z.006.txt",
+		// "IT専用語彙と例文の一式.7z.006");
+
+		// Konvert.OutputByte("20131129【Fujinet】課題管理表.7z.002",
+		// "20131129【Fujinet】課題管理表.7z.002.txt");
+		// Konvert.OutputByte("20131129【Fujinet】課題管理表.7z.003",
+		// "20131129【Fujinet】課題管理表.7z.003.txt");
+		// Konvert.OutputByte("20131129【Fujinet】課題管理表.7z.004",
+		// "20131129【Fujinet】課題管理表.7z.004.txt");
+		// Konvert.OutputByte("20131129【Fujinet】課題管理表.7z.005",
+		// "20131129【Fujinet】課題管理表.7z.005.txt");
+		// Konvert.OutputByte("20131129【Fujinet】課題管理表.7z.006",
+		// "20131129【Fujinet】課題管理表.7z.006.txt");
+
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.001.txt",
+		// "20131129【Fujinet】課題管理表.7z.001");
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.002.txt",
+		// "20131129【Fujinet】課題管理表.7z.002");
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.003.txt",
+		// "20131129【Fujinet】課題管理表.7z.003");
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.004.txt",
+		// "20131129【Fujinet】課題管理表.7z.004");
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.005.txt",
+		// "20131129【Fujinet】課題管理表.7z.005");
+		// Konvert.ConvertFromByte("20131129【Fujinet】課題管理表.7z.006.txt",
+		// "20131129【Fujinet】課題管理表.7z.006");
+	}
+
+}

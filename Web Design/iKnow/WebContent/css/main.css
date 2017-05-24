@@ -1,0 +1,9 @@
+@IMPORT url("header.css");
+@IMPORT url("body.css");
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: tahoma;
+	font-size: 12pt;
+}

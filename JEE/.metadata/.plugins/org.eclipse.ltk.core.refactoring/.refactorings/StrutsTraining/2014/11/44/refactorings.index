@@ -1,0 +1,12 @@
+1414855987513	Rename resource 'struts-config'
+1414856000664	Rename resource 'struts-xml'
+1414857879683	Move 1 resources to 'WEB-INF'
+1414858210904	Move 1 resources to 'struts-config'
+1414858491224	Copy file
+1414858926157	Rename resource 'T01.jsp'
+1414859423520	Rename type 'LoginActionPages'
+1414861457133	Rename type 'LoginActionPage'
+1414863869204	Move file
+1414863899592	Delete element
+1414865876823	Move 1 resources to 'WEB-INF'
+1414866005167	Move 1 resources to 'classes'

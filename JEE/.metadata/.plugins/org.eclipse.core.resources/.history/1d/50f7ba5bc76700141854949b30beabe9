@@ -1,0 +1,10 @@
+package vn.aftech.form;
+
+import org.apache.struts.action.Action;
+
+public class Student extends Action {
+	
+	private String name;
+	private String email;
+
+}

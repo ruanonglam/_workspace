@@ -1,0 +1,7 @@
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\bin\Release\iUtilsTest.exe
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\bin\Release\iUtilsTest.pdb
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\bin\Release\iUtils.dll
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\bin\Release\iUtils.pdb
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\obj\Release\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\obj\Release\iUtilsTest.exe
+E:\5.Working\_Workspace\C#\iUtils\iUtilsTest\obj\Release\iUtilsTest.pdb

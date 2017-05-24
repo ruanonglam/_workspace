@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\Mutext\Mutext\bin\Release\Mutext.exe
+E:\5.Working\_Workspace\C#\Mutext\Mutext\bin\Release\Mutext.pdb
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\Mutext.Form1.resources
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\Mutext.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\Mutext.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\Mutext.exe
+E:\5.Working\_Workspace\C#\Mutext\Mutext\obj\Release\Mutext.pdb

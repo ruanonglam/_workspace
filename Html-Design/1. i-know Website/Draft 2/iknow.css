@@ -1,0 +1,204 @@
+/**
+* Author: Trịnh Văn Qui
+* Email: quitrinh0401@gmail.com
+* Create: 2015/12/06
+* UPdate: 2015/12/06
+**/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+/** HEADER STYLE - START */
+div#main-header {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #595959;
+	border-bottom: 3px solid #A6A6A6;
+	text-align: right;
+
+}
+
+div#main-header a{
+	display: block;
+	width: auto;
+	height: 35px;
+	float: right;
+
+	font-size: 12pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-top: 15px;
+
+	margin-left: 20px;
+	
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
+}
+
+/*Menu item header - BLUE*/
+a#main-header-menu-blue {
+	background-image: url("img/header/header-icon-blue.png");
+	margin-right: 20px;
+}
+a#main-header-menu-blue:hover {
+	color: #DBEEF4;
+	border-bottom: 3px solid #376092;
+}
+
+/*Menu item header - ORANGE*/
+a#main-header-menu-orange {
+	background-image: url("img/header/header-icon-orange.png");
+}
+a#main-header-menu-orange:hover {
+	color: #FDEADA;
+	border-bottom: 3px solid #E46C0A;
+}
+
+/*Menu item header - GREEN*/
+a#main-header-menu-green {
+	background-image: url("img/header/header-icon-green.png");
+}
+a#main-header-menu-green:hover {
+	color: #EBF1DE;
+	border-bottom: 3px solid #77933C;
+}
+
+/*Menu item header - PINK*/
+a#main-header-menu-pink {
+	background-image: url("img/header/header-icon-pink.png");
+}
+a#main-header-menu-pink:hover {
+	color: #F2DCDB;
+	border-bottom: 3px solid #953735;
+}
+
+
+/** HEADER STYLE - END */
+
+
+
+/** BODY: LEFT MENU - START */
+div#main-left-menu {
+	display: block;
+	position: fixed;
+	float: left;
+	width: 230px;
+	height: auto;
+
+	margin-left: 5px;
+
+}
+
+div#main-left-menu a#logo{
+	text-decoration: none;
+	display: block;
+}
+
+div#main-left-menu a#logo img{
+	display: block;
+}
+
+div#main-left-main-content{
+	display: block;
+	width: 228px;
+	height: 450px;
+	/*height: auto;*/
+	background-color: #F2F2F2;
+	border: 1px solid #7F7F7F;
+
+	margin-top: -35px;
+	margin-left: 15px;
+}
+
+div#main-left-main-content h3{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	text-align: right;
+	color: #595959;
+}
+
+div#main-left-main-content h4{
+	display: block;
+	margin: auto;
+	width: 185px;
+	height: 26px;
+	padding-left: 25px;
+	border-bottom: 1px solid #7F7F7F;
+	margin-bottom: 5px;
+
+	cursor: pointer;
+}
+
+div#main-left-main-content h4#menu-item-blue{
+	background: url("img/left/menu-item-icon-blue.png") no-repeat;
+	color: #376092;
+}
+div#main-left-main-content h4#menu-item-orange{
+	background: url("img/left/menu-item-icon-orange.png") no-repeat;
+	color: #E46C0A;
+}
+div#main-left-main-content h4#menu-item-green{
+	background: url("img/left/menu-item-icon-green.png") no-repeat;
+	color: #77933C;
+}
+div#main-left-main-content h4#menu-item-pink{
+	background: url("img/left/menu-item-icon-pink.png") no-repeat;
+	color: #953735;
+}
+
+
+div#main-left-main-content ul{
+	display: block;
+	margin: auto;
+	width: 180px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+div#main-left-main-content ul li{
+	padding-top: 5px;
+	border-bottom: 1px dotted #A6A6A6;
+}
+div#main-left-main-content ul a{
+	display: block;
+	height: 25px;
+	text-decoration: none;
+	color: #000000;
+}
+div#main-left-main-content ul.blue a:hover{
+	color: blue;
+}
+div#main-left-main-content ul.orange a:hover{
+	color: orange;
+}
+div#main-left-main-content ul.green a:hover{
+	color: green;
+}
+div#main-left-main-content ul.pink a:hover{
+	color: #953735;
+}
+
+/** BODY: LEFT MENU - END */
+
+
+/** BODY: RIGHT CONTENT - START */
+div#main-right-content {
+	display: block;
+	width: 100%;
+	height: 1500px;
+	background-color: #FFFFFF;
+}
+
+/** BODY: RIGHT CONTENT - END */

@@ -1,0 +1,7 @@
+package vn.aftech.action;
+
+import org.apache.struts.action.Action;
+
+public class ChooseAction extends Action {
+
+}

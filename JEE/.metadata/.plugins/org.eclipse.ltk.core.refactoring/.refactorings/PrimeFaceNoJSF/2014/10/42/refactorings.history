@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PrimeFaceNoJSF/WebContent/WEB-INF/index.jsp&apos; to &apos;index.jsf&apos;" description="Rename resource &apos;index.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/index.jsp" name="index.jsf" stamp="1413087017694" updateReferences="true"/>&#x0A;<refactoring comment="Move 1 resources to &apos;WebContent&apos;" description="Move 1 resources to &apos;WebContent&apos;" destination="WebContent" element1="WebContent/WEB-INF/index.jsf" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1413088269551" updateReferences="true"/>
+</session>

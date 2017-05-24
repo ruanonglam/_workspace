@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\bin\Debug\CountByteInString.exe
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\bin\Debug\CountByteInString.pdb
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\CountByteInString.Form1.resources
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\CountByteInString.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\CountByteInString.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\CountByteInString.exe
+E:\5.Working\_Workspace\C#\CountByteInString\CountByteInString\obj\Debug\CountByteInString.pdb

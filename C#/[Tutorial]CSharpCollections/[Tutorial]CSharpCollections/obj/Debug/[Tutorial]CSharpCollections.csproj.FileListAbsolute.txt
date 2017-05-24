@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\bin\Debug\[Tutorial]CSharpCollections.exe
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\bin\Debug\[Tutorial]CSharpCollections.pdb
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\_Tutorial_CSharpCollections.MainForm.resources
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\_Tutorial_CSharpCollections.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\[Tutorial]CSharpCollections.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\[Tutorial]CSharpCollections.exe
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[Tutorial]CSharpCollections\obj\Debug\[Tutorial]CSharpCollections.pdb

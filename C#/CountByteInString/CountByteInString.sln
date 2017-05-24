@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountByteInString", "CountByteInString\CountByteInString.csproj", "{51C4336B-FFA5-4D74-9D81-F38725D5FE95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C4336B-FFA5-4D74-9D81-F38725D5FE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C4336B-FFA5-4D74-9D81-F38725D5FE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C4336B-FFA5-4D74-9D81-F38725D5FE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C4336B-FFA5-4D74-9D81-F38725D5FE95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

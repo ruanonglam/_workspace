@@ -1,0 +1,191 @@
+/*************************************************************************************************
+||																								||
+||STYLE FOR MOBILE - START																		||
+||																								||
+**************************************************************************************************/
+@media only screen and (max-width: 480px) {
+/*================================================*/
+/**MAIN PAGE - START*/
+/*================================================*/
+*{
+	margin: 0; padding: 0;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+div#left-menu{
+	display: block;
+	width: 100%;
+}
+
+div#main-content{
+	display: none;
+	padding: 0;
+	width: 100%;
+	height: 150%;
+	float: left;
+}
+
+div#right-menu{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 130px;
+	overflow: hidden;
+}
+/*================================================*/
+/**MAIN PAGE - END*/
+/*================================================*/
+
+/*||
+* || MOBILE
+* ||*/
+/*================================================*/
+/**LEFT MENU STYLE - START*/
+/*================================================*/
+a.left-menu-item-header{
+	text-decoration: none;
+	display: block;
+	width: 100% - 52px;
+	height: 38px;
+	font-size: 16pt;
+	color: #525252;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 52px;
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #F5F5F5;
+	background-repeat: no-repeat;
+}
+
+a#left-menu-item-header-java{
+	background-image: url("img/menu/menu-java.png");
+	border-top: 1px solid #DBDBDB;
+}
+
+a#left-menu-item-header-php{
+	background-image: url("img/menu/menu-php.png");
+}
+
+a#left-menu-item-header-js{
+	background-image: url("img/menu/menu-js.png");
+}
+
+a#left-menu-item-header-html{
+	background-image: url("img/menu/menu-html.png");
+}
+
+a#left-menu-item-header-net{
+	background-image: url("img/menu/menu-net.png");
+}
+
+a#left-menu-item-header-tips{
+	background-image: url("img/menu/menu-tips.png");
+}
+
+a#left-menu-item-header-android{
+	background-image: url("img/menu/menu-android.png");
+}
+
+/*-------------------------------------------------------*/
+ul.left-menu-item-sub {
+	margin-top: 2px;
+}
+
+ul.left-menu-item-sub li a{
+	text-decoration: none;
+	display: block;
+	/*width: 199px; 249 - padding-left*/
+	width: 100% - 50px;
+	/*height: 23px;*/
+	height: 24px;
+	padding-left: 50px;
+	color: black;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	background-repeat: no-repeat;
+	background-image: url("img/menu/item-dot.png");
+	background-position: 30px 9px;
+	border-bottom: 1px solid #F5F5F5;
+}
+/** Style for mobile */
+div#mob-toolbar {
+	width: 100%;
+	height: 50px;
+	background-color: #F5F5F5;
+	border-top: 1px solid #DBDBDB;
+	position: fixed;
+	display: none;
+	bottom: 0;
+}
+
+div#mob-home{
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+
+div#mob-menu{
+	width: auto;
+	height: 30px;
+	padding-top: 18px;
+	color: #272822;
+	float: left;
+}
+/*================================================*/
+/**LEFT MENU STYLE - END*/
+/*================================================*/
+
+/*||
+* ||MOBILE
+* ||*/
+/*================================================*/
+/**RIGHT MENU STYLE - START*/
+/*================================================*/
+div#right-tech-logo{
+	display: block;
+	width: 100%;
+	height: 128px;
+	text-align: center;
+}
+
+ul.right-menu-tech{
+	display: block;
+	white-space: nowrap;
+	line-height: 28px;
+	margin-top: 15px;
+}
+
+ul.right-menu-tech label{
+	display: block;
+	font-size: 13pt;
+	font-style:  italic;
+	font-weight: bold;
+	color: #E6E6E6;
+	background-color: #2E2F29;
+}
+
+ul.right-menu-tech li{
+	display: block;
+	padding-left: 10px;
+	width: 100% -10px;
+
+}
+
+ul.right-menu-tech li a{
+	text-decoration: none;
+	color: #2E2F29;
+}
+ul.right-menu-tech li a:hover{
+	color: #F3492C;
+}
+/*================================================*/
+/**RIGHT MENU STYLE - END*/
+/*================================================*/
+
+}
+/*************************************************************************************************
+||																								||
+||STYLE FOR MOBILE - END																		||
+||																								||
+**************************************************************************************************/

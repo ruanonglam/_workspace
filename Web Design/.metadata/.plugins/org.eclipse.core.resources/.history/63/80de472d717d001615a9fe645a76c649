@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="icon" type="image/png" href="_img/body/iknow-favorite.png" />
+<link rel="stylesheet" type="text/css" href="_css/main.css">
+<title>iknow - Từ vựng &bull; Trái cây</title>
+<body>
+<div id="main_frame">
+	<div id="main_body">
+		<!-- LEFT -->
+		<div id="left_frame">
+			<!-- .:Toolbar:. -->
+			<div id="left_toolbar">
+				<ul id="left_toolbar">
+					<li><img alt="Setting" src="_img/body/left-setting-icon.png"></li>
+					<li><img alt="About iknow.vn" src="_img/body/left-help-icon.png"></li>
+					<li><img alt="Contact" src="_img/body/left-mail-icon.png"></li>
+				</ul>
+			</div>
+			
+			<!-- .:Logo:. -->
+			<a href="#" id="logo"><img alt="iknow.vn" src="_img/body/iknow-logo.png"></a>
+			
+			<!-- .:Menu1:. -->
+			<div class="left_menu">
+				<ul>
+					<li><a href="#">★ Computer</a></li>
+					<li><a href="#">★ Programming</a></li>
+					<li><a href="#">★ Topics</a></li>
+				</ul>
+			</div>
+			
+			<!-- .:Menu2:. -->
+			<div class="left_menu">
+				<ul>
+					<li><a href="#">★ JAVA</a></li>
+					<li><a href="#">★ C++</a></li>
+					<li><a href="#">★ PHP</a></li>
+				</ul>
+			</div>
+			
+			<!-- .:Menu3:. -->
+			<div class="left_menu">
+				<ul>
+					<li><a href="#">★ <b>漢字</b> & <b>語彙</b></a></li>
+					<li><a href="#">★ <b>文法</b></a></li>
+					<li><a href="#">★ <b>日本語の本</b></a></li>
+				</ul>
+			</div>
+			
+		</div>
+		
+		
+		<!-- RIGHT -->
+		<div id="right_frame">
+			<!-- .:Topic:. -->
+			<div id="right_topic">
+				<h3>Từ vựng theo chủ đề trái cây</h3>
+				<i>Ngày update: 2016/09/17</i>
+			</div>
+			
+			<!-- .:Vocabulary Show:. -->
+			<div id="right_vocab_show">
+				<!-- .:Action:. -->
+				<div id="right_vocab_action">
+					<!-- Left Row -->
+					<div id="right_row_left">
+						<!-- .:Number:. -->
+						<div id="right_vocab_number">01</div>
+						<div class="right_row-action">
+							<a href="#"><img alt="view-vocabulary" src="_img/body/right-vocab-row-left.png"></a>
+						</div>
+					</div>
+					<!-- Right Row -->
+					<div id="right_row_right">
+						<div class="right_row-action" id="right_row-action_right">
+							<a href="#"><img alt="view-vocabulary" src="_img/body/right-vocab-row-right.png"></a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- .:Show vocabulary:. -->
+				<h3 id="right_vocab_text">みかん</h3>
+				<div id="right_vocab_detail"></div>
+			</div>
+			
+			<!-- .:Vocabulary toolbar:. -->
+			<div id="right_vocab_tool">
+				<ul id="left">
+					<li><a href="#"><img alt="Facebook liked" src="_img/body/toolbar-facebook.png"></a></li>
+					<li><a href="#"><img alt="Google+" src="_img/body/toolbar-google.png"></a></li>
+				</ul>
+				
+				<ul id="right">
+					<li><a href="#"><img alt="Download" src="_img/body/toolbar-download.png"></a></li>
+				</ul>
+			</div>
+			
+			<!-- .:Relate Vocabulary:. -->
+			<div id="right_vocab_relate_title"></div>
+			
+			<!-- .:Relate Topic Show:. -->
+			<!-- .:Line-1:. -->
+			<div id="right_vocab_relate_line">
+				<div class="right_relate_item">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/traicay/_thumb_traicay.jpg"></a>
+					<div id="_title"></div>
+					<font>Trái cây (54 từ)</font>
+				</div>
+				<div class="right_relate_item">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/nhacua/_thumb_nhacua.jpg"></a>
+					<div id="_title"></div>
+					<font>Nhà cửa (24 từ)</font>
+				</div>
+				<div class="right_relate_item" id="right_relate_item_end">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/giaothong/_thumb_giaothong.jpg"></a>
+					<div id="_title"></div>
+					<font>Giao thông (113 từ)</font>
+				</div>
+			</div>
+			
+			<!-- .:Line-2:. -->
+			<div id="right_vocab_relate_line">
+				<div class="right_relate_item">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/raucu/_thumb_raucu.jpg"></a>
+					<div id="_title"></div>
+					<font>Rau củ (36 từ)</font>
+				</div>
+				<div class="right_relate_item">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/monan/_thumb_monan.jpg"></a>
+					<div id="_title"></div>
+					<font>Món ăn (57 từ)</font>
+				</div>
+				<div class="right_relate_item">
+					<a href="#"><img alt="Vocabulary" src="_img/sample/chim/_thumb_chim.jpg"></a>
+					<div id="_title"></div>
+					<font>Chim (44 từ)</font>
+				</div>
+			</div>
+			
+			<!-- .:Footer:. -->
+			<div id="footer">
+				© Copyright 2016 iKNOW. All rights reserved<br/><br/>
+				<i>
+					Toàn bộ nội dung được trình bày trên website này, điều thuộc bản quyền của <b>iknow.vn</b>
+					<br/>Nếu bạn đăng lại bất kỳ nội dung nào thuộc bản quyền của <b>iknow.vn</b>, thì xin hãy ghi rõ nguồn. Xin cảm ơn!
+				</i>
+			</div>
+		</div>
+	</div>
+</div>
+
+</head>
+<body>
+
+</body>
+</html>

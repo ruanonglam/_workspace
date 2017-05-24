@@ -1,0 +1,5 @@
+E:\5.Working\_Workspace\C#\Utils\Util\obj\Debug\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\Utils\Util\bin\Debug\Util.dll
+E:\5.Working\_Workspace\C#\Utils\Util\bin\Debug\Util.pdb
+E:\5.Working\_Workspace\C#\Utils\Util\obj\Debug\Util.dll
+E:\5.Working\_Workspace\C#\Utils\Util\obj\Debug\Util.pdb

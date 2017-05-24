@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\bin\Debug\[20160101]MessageConfirmExitPG.exe
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\bin\Debug\[20160101]MessageConfirmExitPG.pdb
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\_20160101_MessageConfirmExitPG.Form1.resources
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\_20160101_MessageConfirmExitPG.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\[20160101]MessageConfirmExitPG.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\[20160101]MessageConfirmExitPG.exe
+E:\5.Working\_Workspace\C#\[Tutorial]CSharpCollections\[20160101]MessageConfirmExitPG\obj\Debug\[20160101]MessageConfirmExitPG.pdb

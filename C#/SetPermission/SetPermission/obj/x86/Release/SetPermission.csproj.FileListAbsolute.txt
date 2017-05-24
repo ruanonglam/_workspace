@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\bin\x86\Release\SetPermission.exe
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\bin\x86\Release\SetPermission.pdb
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\SetPermission.Form1.resources
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\SetPermission.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\SetPermission.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\SetPermission.exe
+E:\5.Working\_Workspace\C#\SetPermission\SetPermission\obj\x86\Release\SetPermission.pdb

@@ -1,0 +1,71 @@
+﻿[Required]
+1) Trường hợp item [System]Watch không được setting:
+- Hiển thị message [<Nội dung message>]
+- Output log error [<Nội dung log>]
+- Kết thúc program.
+- <Other proccess>
+
+2) Trường hợp giá trị của item [System]Watch được setting không phải là số:
+- Hiển thị message [<Nội dung message>]
+- Output log error [<Nội dung log>]
+- Kết thúc program.
+- <Other proccess>
+
+<Min + Max>
+3) Trường hợp giá trị của item [System]Watch nhỏ hơn Min ([System]Watch = Min - 1)
+- Hiển thị message [<Nội dung message>]
+- Output log error [<Nội dung log>]
+- Kết thúc program.
+- <Other proccess>
+
+4) Trường hợp giá trị của item [System]Watch lớn hơn Max ([System]Watch = Max + 1)
+- Hiển thị message [<Nội dung message>]
+- Output log error [<Nội dung log>]
+- Kết thúc program.
+- <Other proccess>
+
+---Setting hợp lệ---
+5) Trường hợp giá trị của item [System]Watch bằng giá trị của Min
+- Output log info [Nội dung log]
+
+6) Trường hợp giá trị của item [System]Watch bằng giá trị của Max
+- Output log info [Nội dung log]
+
+7) Trường hợp giá trị của item [System]Watch bằng giá trị ở giữa trị Max và Min
+- Output log info [Nội dung log]
+
+<Collection Values>
+8) Trường hợp giá trị của item [System]Watch không thuộc collection values
+- Hiển thị message [<Nội dung message>]
+- Output log error [<Nội dung log>]
+- Kết thúc program.
+- <Other proccess>
+
+---Setting hợp lệ---
+9) Trường hợp giá trị của item [System]Watch thuộc collection values
+- Output log info [Nội dung log]
+
+===============================================
+==========[Not Required]============================
+===============================================
+1) Trường hợp item [System]Watch không được setting:
+
+2) Trường hợp giá trị của item [System]Watch được setting không phải là số:
+
+<Min + Max>
+3) Trường hợp giá trị của item [System]Watch nhỏ hơn Min ([System]Watch = Min - 1)
+
+4) Trường hợp giá trị của item [System]Watch lớn hơn Max ([System]Watch = Max + 1)
+
+---Setting hợp lệ---
+5) Trường hợp giá trị của item [System]Watch bằng giá trị của Min
+
+6) Trường hợp giá trị của item [System]Watch bằng giá trị của Max
+
+7) Trường hợp giá trị của item [System]Watch bằng giá trị ở giữa trị Max và Min
+
+<Collection Values>
+8) Trường hợp giá trị của item [System]Watch không thuộc collection values
+
+---Setting hợp lệ---
+9) Trường hợp giá trị của item [System]Watch thuộc collection values

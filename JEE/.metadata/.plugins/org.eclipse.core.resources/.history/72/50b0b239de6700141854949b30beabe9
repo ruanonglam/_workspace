@@ -1,0 +1,91 @@
+package vn.aftech.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import vn.aftech.common.Common;
+import vn.aftech.form.ListStudentForm;
+import vn.aftech.form.Student;
+import vn.aftech.util.Validate;
+
+public class StudentAction extends Action {
+	
+	ListStudentForm listStudentForm;
+	private List<Student> students = new ArrayList<>();
+	private int type = 0; // 0: All, 1: Name, 2, Age
+
+	@Override
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) 
+			throws Exception {
+		bindingData();
+		listStudentForm = (ListStudentForm) form;
+		// Search by name and age
+		if (type == 0) {
+			listStudentForm.setStudents(students);
+		} else if (type == 1) {
+			
+		} else {
+			
+		}
+		
+		
+		return mapping.findForward(Common.SUCCESS);
+	}
+	
+	private void searchCondition() {
+		
+	}
+	
+	private List<Student> searchByName(String name) {
+		List<Student> result = new ArrayList<Student>();
+		for (Student stu : students) {
+			if (stu.getName().contains(name) || name.contains(stu.getName())) {
+				result.add(stu);
+			}
+		}
+		return result;
+	}
+	
+	private List<Student> searchByAge(int age) {
+		List<Student> result = new ArrayList<Student>();
+		for (Student stu : students) {
+			if (stu.getAge() == age) {
+				result.add(stu);
+			}
+		}
+		return result;
+	}
+	
+	private List<Student> searchBynameAndAge(String name, int age) {
+		List<Student> result = new ArrayList<Student>();
+		for (Student stu : students) {
+			if (stu.getName().contains(name) || name.contains(stu.getName())) {
+				if (stu.getAge() == age) {
+					result.add(stu);
+				}
+			}
+		}
+		return result;
+	}
+	
+	private void bindingData() {
+		for (int i = 0; i < 50; i++) {
+			Student stu = new Student();
+			stu.setId("07130101" + i);
+			stu.setName("Rua" + i);
+			stu.setEmail("ruanonglam" + i + "@yahoo.com");
+			stu.setAge(i + 5);
+			students.add(stu);
+		}
+	}
+	
+}

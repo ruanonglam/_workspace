@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="LoginForm" type="vn.aftech.group.form.LoginForm"></form-bean>
+	</form-beans>
+
+	<action-mappings>
+		<action path="/index" forward="/WEB-INF/jsp/index.jsp"/>
+		
+		<action name="LoginForm" path="/login" type="vn.aftech.group.action.LoginAction"
+			scope="request">
+			<forward name="success" path="/WEB-INF/jsp/login.jsp"></forward>
+		</action>
+
+	</action-mappings>
+
+
+</struts-config>

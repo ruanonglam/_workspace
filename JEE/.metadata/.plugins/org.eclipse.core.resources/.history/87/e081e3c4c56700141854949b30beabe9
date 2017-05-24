@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="loginForm" type="vn.aftech.form.LoginForm"></form-bean>
+		<form-bean name="profileSettingForm" type="vn.aftech.form.ProfileSettingForm"></form-bean>
+		<form-bean name="skillForm" type="vn.aftech.form.SkillForm"></form-bean>
+		<form-bean name="chooseForm" type="vn.aftech.form.ChooseForm"></form-bean>
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="index" path="/index.do"></forward>
+	</global-forwards>
+
+	
+	<action-mappings>
+		<!-- default page when init -->
+		<action path="/index" forward="/pages/welcome.jsp"></action>
+		
+		<!-- Tutorial 01 - Move to login pages when click to [Login] link -->
+		<action path="/loginPage" forward="/pages/T01/login.jsp"></action>
+		
+		<action name="loginForm" path="/loginAction" type="vn.aftech.action.LoginAction" input="/pages/T01/login.jsp" validate="true">
+			<forward name="success" path="/pages/T01/login-success.jsp"></forward>
+			<forward name="failed" path="/pages/T01/login-failed.jsp"></forward>
+		</action>
+		
+		<!-- Tutorial 02 - Process with Checkbox -->
+		<action path="/settingPage" forward="/pages/T02/setting.jsp" scope="request"></action>
+		
+		<action name="profileSettingForm" path="/setingProfileAction" type="vn.aftech.action.ProfileSettingAction" scope="request" input="/pages/T02/setting.jsp" validate="true">
+			<forward name="success" path="/pages/T02/setting-confirm.jsp"></forward>
+		</action>
+		
+		<action name="profileSettingForm" path="/settingProfileConfirmAction" type="vn.aftech.action.ProfileSettingConfirmAction" scope="request">
+			<forward name="edit" path="/pages/T02/setting.jsp"></forward>
+			<forward name="submit" path="/pages/T02/seting-success.jsp"></forward>
+		</action>
+		
+		<!-- Tutorial 03-Multi checkbox -->
+		<action path="/skillPage" type="vn.aftech.action.SkillPageAction" scope="request">
+			<forward name="success" path="/pages/T03/skill.jsp"></forward>
+		</action>
+		
+		<action name="skillForm" path="/skillAction" type="vn.aftech.action.SkillAction" scope="request">
+			<forward name="success" path="/pages/T03/skill-success.jsp"></forward>
+		</action>
+		
+		<!-- Tutorial 04-Radio button -->
+		<action path="/choosePage" forward="/pages/T04/choose.jsp"></action>
+		
+		<action path="/chooseAction" name="chooseForm"
+				type="vn.aftech.action.ChooseAction"
+				scope="request" input="/pages/T04/choose.jsp" validate="true">
+			<forward name="success" path="/pages/T04/choose-success.jsp"></forward>
+		</action>
+		
+		<!-- Tutorial 05-List -->
+		<action path=""></action>
+		
+	</action-mappings>
+	
+	<!-- setting resource -->
+	<message-resources parameter="MessageResources"></message-resources>
+
+</struts-config>

@@ -1,0 +1,72 @@
+package vn.aftech.konvert;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Konvert {
+
+	private static void OutputByte(String sourceFilename, String desFileByte) throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(desFileByte));
+		String byteContent = "";
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				sourceFilename));
+		int b = -1;
+		System.out.println("Starting...");
+		while ((b = bis.read()) != -1) {
+			byteContent = byteContent + b + " ";
+			if (byteContent.length() > 100) {
+				bw.write(byteContent + "\r\n");
+				byteContent = "";
+			}
+		}
+		if (!"".equals(byteContent)) {
+			bw.write(byteContent);
+		}
+		bw.close();
+		bis.close();
+		System.out.println("Ending...");
+	}
+
+	private static void ConvertFromByte(String sourceByteFile,
+			String desFilename) throws IOException {
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream(desFilename));
+		BufferedReader br = new BufferedReader(new FileReader(sourceByteFile));
+		String content = "";
+		String[] byteContent = null;
+		int b = -1;
+		System.out.println("Starting....");
+		while ((content = br.readLine()) != null) {
+			byteContent = content.trim().split(" ");
+			for (int i = 0; i < byteContent.length; i++) {
+				b = Integer.parseInt(byteContent[i]);
+				bos.write(b);
+			}
+		}
+		br.close();
+		bos.close();
+		System.out.println("End...");
+	}
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		// Create Code
+		// Konvert.OutputByte("C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp.TXT",
+
+		// Create File
+		Konvert.ConvertFromByte(
+				"C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp_2.TXT",
+				"C:\\Users\\qui-tv\\Desktop\\TKCTPG005\\TestUT\\VN\\Sp_3.TXT");
+	}
+
+}

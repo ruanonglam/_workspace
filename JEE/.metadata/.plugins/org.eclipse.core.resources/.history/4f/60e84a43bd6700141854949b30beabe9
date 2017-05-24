@@ -1,0 +1,27 @@
+package vn.aftech.form;
+
+import org.apache.struts.action.ActionForm;
+
+public class ChooseForm extends ActionForm {
+
+	private static final long serialVersionUID = 6882987004642689723L;
+	private String name;
+	private boolean sex;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isSex() {
+		return sex;
+	}
+
+	public void setSex(boolean sex) {
+		this.sex = sex;
+	}
+
+}

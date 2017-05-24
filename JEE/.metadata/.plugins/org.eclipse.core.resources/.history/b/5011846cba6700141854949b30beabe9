@@ -1,0 +1,9 @@
+package vn.aftech.form;
+
+import org.apache.struts.action.ActionForm;
+
+public class ChooseForm extends ActionForm {
+	
+	private String name;
+	private boolean sex;
+}

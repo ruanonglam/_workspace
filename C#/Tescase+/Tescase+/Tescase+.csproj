@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C6F1DD5-B74B-4F74-8D43-455AF0B23664}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tescase_</RootNamespace>
+    <AssemblyName>Tescase+</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>app-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CommonFuncs.cs" />
+    <Compile Include="Classes\CommonVals.cs" />
+    <Compile Include="Classes\Constants.cs" />
+    <Compile Include="Classes\IniOperator.cs" />
+    <Compile Include="Classes\IniParser.cs" />
+    <Compile Include="Classes\Utility.cs" />
+    <Compile Include="Config\ConfigScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Config\ConfigScreen.Designer.cs">
+      <DependentUpon>ConfigScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\DialogConfigPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config\DialogConfigPreview.Designer.cs">
+      <DependentUpon>DialogConfigPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\DialogSettingIni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config\DialogSettingIni.Designer.cs">
+      <DependentUpon>DialogSettingIni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\NumberEditorScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Config\NumberEditorScreen.Designer.cs">
+      <DependentUpon>NumberEditorScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\StringEditorScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Config\StringEditorScreen.Designer.cs">
+      <DependentUpon>StringEditorScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogAddNewIniFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogAddNewIniFiles.Designer.cs">
+      <DependentUpon>DialogAddNewIniFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogAddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogAddProject.Designer.cs">
+      <DependentUpon>DialogAddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogExportFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogExportFile.Designer.cs">
+      <DependentUpon>DialogExportFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogImportIniFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogImportIniFile.Designer.cs">
+      <DependentUpon>DialogImportIniFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Genrator\TestcaseConfig.cs" />
+    <Compile Include="HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Config\ConfigScreen.resx">
+      <DependentUpon>ConfigScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\DialogConfigPreview.resx">
+      <DependentUpon>DialogConfigPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\DialogSettingIni.resx">
+      <DependentUpon>DialogSettingIni.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\NumberEditorScreen.resx">
+      <DependentUpon>NumberEditorScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\StringEditorScreen.resx">
+      <DependentUpon>StringEditorScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogAddNewIniFiles.resx">
+      <DependentUpon>DialogAddNewIniFiles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogAddProject.resx">
+      <DependentUpon>DialogAddProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogExportFile.resx">
+      <DependentUpon>DialogExportFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogImportIniFile.resx">
+      <DependentUpon>DialogImportIniFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-setup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-logic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-db.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-io.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header-solution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app-icon.ico" />
+    <None Include="Resources\btn-switch.png" />
+    <None Include="Resources\btn-question.png" />
+    <None Include="Resources\btn-close.png" />
+    <None Include="Resources\icon-item.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

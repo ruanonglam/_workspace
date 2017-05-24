@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06B8424E-072C-4B0B-AF5C-7D29E3B4CB1B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>i_tools</RootNamespace>
+    <AssemblyName>i-tools</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>app-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CommonFuncs.cs" />
+    <Compile Include="Classes\CommonVals.cs" />
+    <Compile Include="Classes\Constants.cs" />
+    <Compile Include="Classes\IniOperator.cs" />
+    <Compile Include="Classes\Security\SecurityOperator.cs" />
+    <Compile Include="Classes\Utility.cs" />
+    <Compile Include="MessagesBoxs\ErrorMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagesBoxs\ErrorMessageBox.Designer.cs">
+      <DependentUpon>ErrorMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FavoriteScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FavoriteScreen.Designer.cs">
+      <DependentUpon>FavoriteScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilenFolderScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FilenFolderScreen.Designer.cs">
+      <DependentUpon>FilenFolderScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternetScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InternetScreen.Designer.cs">
+      <DependentUpon>InternetScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IToolScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IToolScreen.Designer.cs">
+      <DependentUpon>IToolScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagesBoxs\MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagesBoxs\MessageBox.Designer.cs">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityScreens\PermissionScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecurityScreens\PermissionScreen.Designer.cs">
+      <DependentUpon>PermissionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecutrityScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecutrityScreen.Designer.cs">
+      <DependentUpon>SecutrityScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingScreen.Designer.cs">
+      <DependentUpon>SettingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingScreens\SecuritySettingScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingScreens\SecuritySettingScreen.Designer.cs">
+      <DependentUpon>SecuritySettingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkScreen.Designer.cs">
+      <DependentUpon>WorkScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FavoriteScreen.resx">
+      <DependentUpon>FavoriteScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilenFolderScreen.resx">
+      <DependentUpon>FilenFolderScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternetScreen.resx">
+      <DependentUpon>InternetScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IToolScreen.resx">
+      <DependentUpon>IToolScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagesBoxs\ErrorMessageBox.resx">
+      <DependentUpon>ErrorMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagesBoxs\MessageBox.resx">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityScreens\PermissionScreen.resx">
+      <DependentUpon>PermissionScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecutrityScreen.resx">
+      <DependentUpon>SecutrityScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingScreen.resx">
+      <DependentUpon>SettingScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingScreens\SecuritySettingScreen.resx">
+      <DependentUpon>SecuritySettingScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkScreen.resx">
+      <DependentUpon>WorkScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app-icon.ico" />
+    <None Include="Resources\btn-log.png" />
+    <None Include="Resources\error-messagebox.png" />
+    <None Include="Resources\messagebox1.png" />
+    <None Include="Resources\messagebox.png" />
+    <None Include="Resources\sub-content-work.png" />
+    <None Include="Resources\sub-content-setting.png" />
+    <None Include="Resources\sub-content-favorite.png" />
+    <None Include="Resources\sub-content-internet.png" />
+    <None Include="Resources\sub-content-iTool.png" />
+    <None Include="Resources\sub-content-security.png" />
+    <None Include="Resources\sub-content-none.png" />
+    <None Include="Resources\sub-content-FilenFolder.png" />
+    <None Include="Resources\detail-form-btn-back.png" />
+    <None Include="Resources\sub-content-home.png" />
+    <None Include="Resources\main-form-menu-item-work.png" />
+    <None Include="Resources\main-form-menu-item-security.png" />
+    <None Include="Resources\main-form-menu-item-itool.png" />
+    <None Include="Resources\main-form-menu-item-internet.png" />
+    <None Include="Resources\main-form-menu-item-filefolder.png" />
+    <None Include="Resources\main-form-menu-item-favorite.png" />
+    <None Include="Resources\main-form-temp.png" />
+    <None Include="Resources\main-form-btn-setting.png" />
+    <None Include="Resources\main-form-btn-minimize.png" />
+    <None Include="Resources\main-form-btn-close.png" />
+    <None Include="Resources\main-form.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

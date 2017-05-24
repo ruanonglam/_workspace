@@ -1,0 +1,5 @@
+package vn.aftech.action;
+
+public class ChooseAction extends Action{
+
+}

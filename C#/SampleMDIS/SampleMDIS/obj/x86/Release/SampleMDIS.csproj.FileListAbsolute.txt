@@ -1,0 +1,8 @@
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\bin\x86\Release\SampleMDIS.exe
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\bin\x86\Release\SampleMDIS.pdb
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\SampleMDIS.Form1.resources
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\SampleMDIS.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\SampleMDIS.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\SampleMDIS.exe
+E:\5.Working\_Workspace\C#\SampleMDIS\SampleMDIS\obj\x86\Release\SampleMDIS.pdb

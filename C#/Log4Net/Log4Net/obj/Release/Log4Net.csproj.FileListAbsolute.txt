@@ -1,0 +1,11 @@
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\bin\Release\Log4Net.exe.config
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\bin\Release\Log4Net.exe
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\bin\Release\Log4Net.pdb
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\bin\Release\log4net.dll
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\bin\Release\log4net.xml
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\ResolveAssemblyReference.cache
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\Log4Net.Form1.resources
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\Log4Net.Properties.Resources.resources
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\Log4Net.csproj.GenerateResource.Cache
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\Log4Net.exe
+E:\5.Working\_Workspace\C#\Log4Net\Log4Net\obj\Release\Log4Net.pdb

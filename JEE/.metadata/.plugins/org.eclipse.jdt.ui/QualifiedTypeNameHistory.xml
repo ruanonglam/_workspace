@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="quicktime.std.movies.ActionFilter"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionServlet"/>
+<fullyQualifiedTypeName name="vn.aftech.logic.LoginLogic"/>
+<fullyQualifiedTypeName name="vn.aftech.form.LoginForm"/>
+<fullyQualifiedTypeName name="antlr.collections.List"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionMessages"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jni.Global"/>
+<fullyQualifiedTypeName name="org.apache.struts.Globals"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionErrors"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionMessage"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.Action"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="vn.aftech.common.Common"/>
+<fullyQualifiedTypeName name="vn.aftech.form.ListStudentForm"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionForm"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="vn.aftech.util.Validate"/>
+<fullyQualifiedTypeName name="vn.aftech.form.Student"/>
+</qualifiedTypeNameHistroy>

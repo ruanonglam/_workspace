@@ -1,0 +1,9 @@
+package vn.aftech.form;
+
+import org.apache.struts.action.Action;
+
+public class Student extends Action {
+	
+	
+
+}

@@ -1,0 +1,138 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>iKnow &bull; HỌC TẬP - CHIA SẺ</title>
+	<link rel="stylesheet" type="text/css" href="iknow.css">
+	<script type="text/javascript" src="iknow.js"></script>
+	<script type="text/javascript">
+		pageSelected = 0;
+	</script>
+</head>
+<body onload="displayMenu('item1');">
+<!-- left -->
+<div id="left-menu">
+	<!-- logo -->
+	<a href=""><img src="img\logo.png" alt="iknow"></a>
+	<br/>
+
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-java" class="left-menu-item-header" onclick="displayMenu('item1');">JAVA</a>
+	<ul id="item1" class="left-menu-item-sub" style="display: none;">
+		<li><a href="#" onclick="displayMenuPage();">Java core</a></li>
+		<li><a href="#" onclick="displayMenuPage();">Java FX</a></li>
+		<li><a href="#" onclick="displayMenuPage();">Hibernate</a></li>
+		<li><a href="#" onclick="displayMenuPage();">Struts 2</a></li>
+		<li><a href="#" onclick="displayMenuPage();">Others</a></li>
+	</ul>
+
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-php" class="left-menu-item-header" onclick="displayMenu('item2');">PHP</a>
+	<ul id="item2" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">PHP core</a></li>
+		<li><a href="">Symfony</a></li>
+		<li><a href="">Zend2</a></li>
+		<li><a href="">Cake</a></li>
+		<li><a href="">Others</a></li>
+	</ul>
+
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-js" class="left-menu-item-header" onclick="displayMenu('item3');">JAVA Script</a>
+	<ul id="item3" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">Javascript core</a></li>
+		<li><a href="">jQuery</a></li>
+		<li><a href="">Prototype</a></li>
+	</ul>
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-html" class="left-menu-item-header" onclick="displayMenu('item4');">HTML + CSS</a>
+	<ul id="item4" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">HTML</a></li>
+		<li><a href="">HTML5</a></li>
+		<li><a href="">CSS</a></li>
+		<li><a href="">CSS3</a></li>
+	</ul>
+
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-net" class="left-menu-item-header" onclick="displayMenu('item5');">.NET</a>
+	<ul id="item5" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">C#</a></li>
+		<li><a href="">VB.NET</a></li>
+		<li><a href="">WPF</a></li>
+	</ul>
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-android" class="left-menu-item-header" onclick="displayMenu('item6');">Mobile</a>
+	<ul id="item6" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">Android</a></li>
+		<li><a href="">Windows Phone</a></li>
+		<li><a href="">Titanium</a></li>
+		<li><a href="">Phonegap</a></li>
+		<li><a href="">Sencha</a></li>
+	</ul>
+
+	<!--Item -->
+	<a href="#" id="left-menu-item-header-tips" class="left-menu-item-header" onclick="displayMenu('item7');">Coding Tips</a>
+	<ul id="item7" class="left-menu-item-sub" style="display: none;">
+		<li><a href="">Winform Tips</a></li>
+		<li><a href="">Java Tips</a></li>
+		<li><a href="">Others</a></li>
+	</ul>
+
+	
+</div>
+
+<!-- center -->
+<div id="main-content">
+	This is demo page
+</div>
+
+<!-- right -->
+<div id="right-menu">
+<!-- tech logo -->
+<div id="right-tech-logo">
+	<img src="img/menu/menu-java-large.png">
+</div>
+<h1>Mục lục</h1>
+<ul class="right-menu-tech">
+<label>Nhập môn Java</label>
+<li><a href="#" onclick="displayContent();">&bull; Cài đặt môi trường</a></li>
+<li><a href="#" onclick="displayContent();">&bull; Chương trình Java đầu tiên</a></li>
+<li><a href="#" onclick="displayContent();">&bull; Cấu trúc project Java</a></li>
+</ul>
+
+<ul class="right-menu-tech">
+<label>Java Căn Bản</label>
+<li><a href="#">&bull; Biến</a></li>
+<li><a href="#">&bull; Vòng lặp</a></li>
+<li><a href="#">&bull; Java Collection</a></li>
+<li><a href="#">&bull; Java Util</a></li>
+<li><a href="#">&bull; Java IO</a></li>
+<li><a href="#">&bull; Java Network</a></li>
+</ul>
+
+<ul class="right-menu-tech">
+<label>Java Framewok</label>
+<li><a href="#">&bull; Struts</a></li>
+<li><a href="#">&bull; Hibernate</a></li>
+<li><a href="#">&bull; Spring</a></li>
+<li><a href="#">&bull; JSF</a></li>
+<li><a href="#">&bull; Java FX</a></li>
+</ul>
+
+
+<!-- info -->
+<div id="right-menu-footer">@2015 AFTECH. All rights reserved</div>
+</div>
+
+
+<!-- Toolbar Only mobile -->
+<div id="mob-toolbar">
+	<div id="mob-home">
+		<a href="#" onclick="backToHome();"><img src="img/mob/back.png"> </a>
+	</div>
+
+	<div id="mob-menu">
+		TÌM HIỂU VỀ CÔNG NGHỆ JAVA
+	</div>
+</div>
+
+</body>
+</html>

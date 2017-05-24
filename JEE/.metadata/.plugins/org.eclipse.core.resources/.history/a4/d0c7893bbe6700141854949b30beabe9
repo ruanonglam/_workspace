@@ -1,0 +1,23 @@
+#Quy uoc dat ten message key:
+#type.screen.item.validateType
+#Vi du:
+#error.login.username.required  or
+#warning.login.username.overmaxlength
+
+
+#Tutorial 01: message
+errors.login.username.required = {0} can not be blank.
+message.login.action.success=You are login success!
+message.login.action.failed=You are login failed!
+
+#Tutorial 02: message
+label.setting.header.title=Please, confirm your profile!
+label.setting.header.title.success=You are setting profile success!
+error.setting.name.required=Name is required!
+error.setting.email.required=Email is required!
+error.setting.email.required=Address is required!
+
+#Tutorial 03 message
+error.choose.name.required=Your name is required!
+error.choose.name.maxlength=Your name is shorten.
+error.choose.sex.required=Your sex is required!

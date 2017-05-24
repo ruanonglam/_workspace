@@ -1,0 +1,43 @@
+package vn.aftech.form;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts.action.ActionErrors;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionMapping;
+
+import vn.aftech.util.Validate;
+
+public class ChooseForm extends ActionForm {
+
+	private static final long serialVersionUID = 6882987004642689723L;
+	private String name;
+	private boolean sex;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isSex() {
+		return sex;
+	}
+
+	public void setSex(boolean sex) {
+		this.sex = sex;
+	}
+	
+	@Override
+	public ActionErrors validate(ActionMapping mapping,
+			HttpServletRequest request) {
+		ActionErrors errors = new ActionErrors();
+		if (Validate.isNullOrEmptyWithoutSpace(name)) {
+			errors.add("name", arg1);
+		}
+		return super.validate(mapping, request);
+	}
+
+}

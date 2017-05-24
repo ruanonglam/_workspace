@@ -1,0 +1,31 @@
+﻿[Section]ItemName
+;;0: String, 1: Number
+DataType=0
+
+;; 0: True, 1: False
+Required=0
+
+;;======String Properties======
+;;0: True, 1: False
+IsPath=0
+CollectionValStr=A, N, S
+DefaultValueStr=ABC
+ErrorMessageStr=Setting khong hop le
+ErrorLogStr=File Ini setting khong hop le. Gia tri [ABC]Section = 
+;;0: Exit, 1: Not exit
+ExitProgramStr=0
+OtherProcessStr=Lam ABC
+InfoLogStr=File Ini setting khong hop le. Set Gia tri Deafult [ABC]Section = U
+
+;;======Number Properties======
+MinValue=0
+MaxValue=10
+CollectionValueNum=0,1,2
+ErrorMessageNum=Setting khong hop le
+ErrorLogNum=File Ini setting khong hop le. Gia tri [ABC]Section = 
+;;0: Exit, 1: Not exit
+ExitProgramNum=0
+OtherProcessNum=Lam ABC
+InfoLogNum=File Ini setting khong hop le. Set Gia tri Deafult [ABC]Section = U
+
+

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89a09753-86a2-44b3-ba96-6d14b380e345" name="AFTECH@TRINHVANQUI 2015-08-30 16:26:31" runUser="TRINHVANQUI\AFTECH" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="35b1cbb2-bbe2-4988-adbb-0c3a4cdb4a21">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="E:\5.Working\_Workspace\C#\iUtils\TestResults\AFTECH_TRINHVANQUI 2015-08-30 16_26_31">
+      <DeploymentItem filename="E:\5.Working\_Workspace\C#\iUtils\iUtils\bin\Debug\iUtils.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2015-08-30T16:26:31.1441334+07:00" queuing="2015-08-30T16:26:34.3203150+07:00" start="2015-08-30T16:26:34.8103431+07:00" finish="2015-08-30T16:26:36.1104174+07:00" />
+  <TestDefinitions>
+    <UnitTest name="copyFileNameFromPathTest" storage="e:\5.working\_workspace\c#\iutils\testproject1\bin\debug\testproject1.dll" id="01d212fe-52c3-7467-b9de-43e31052fb30">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2703dcaa-6502-42c1-b575-3e82879c4626" />
+      <TestMethod codeBase="E:\5.Working\_Workspace\C#\iUtils\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FileNFolderTest, TestProject1" name="copyFileNameFromPathTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01d212fe-52c3-7467-b9de-43e31052fb30" executionId="2703dcaa-6502-42c1-b575-3e82879c4626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2703dcaa-6502-42c1-b575-3e82879c4626" testId="01d212fe-52c3-7467-b9de-43e31052fb30" testName="copyFileNameFromPathTest" computerName="TRINHVANQUI" duration="00:00:00.1109994" startTime="2015-08-30T16:26:35.0413563+07:00" endTime="2015-08-30T16:26:35.9534085+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+package vn.aftech.form;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.struts.action.ActionForm;
+
+public class ListStudentForm extends ActionForm {
+
+	private String name;
+	private int age;
+	private List students = Collections.synchronizedList(new ArrayList());
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Student[] getStudents() {
+		
+		return this.students.toArray();
+	}
+
+	public void setStudents(List students) {
+		
+	}
+	
+
+}
